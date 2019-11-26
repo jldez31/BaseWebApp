@@ -7,10 +7,11 @@ body {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Mountains of Christmas', cursive;
+  color: #0E262A;
   font-weight: 700;
   margin-top: 40px;
-  font-size: 48px;
+  font-size: 170px;
 }
 
 p {
@@ -19,13 +20,42 @@ p {
 
 button {
   margin-top: 40px;
+  color: #0E262A
 }
 
+.btn {
+  cursor: pointer;
+  background-color: #AC9539;
+  color: #0E262A;  
+  width: 50%;
+  margin: 5% 25%;
+  font-family: 'Mountains of Christmas', cursive;
+  margin: 10px;
+}
+
+.button {
+  border-radius: 1.25rem;
+  font-size: 20px;
+  vertical-align: middle;
+  margin: 5% 25%;
+}
+
+.container {
+  align-content: center;
+}
+
+
 .page-header {
-  background-color: #00bda5;
+  background-color: #0E262A;
   padding-top: 40px;
   padding-bottom: 80px;
-  color: #ffffff;
+  text-align: center;
+  font-family: 'Mountains of Christmas', cursive;
+  letter-spacing: 20px;
+  color: #0E262A;
+  font-weight: 700;
+  font-size: 0px;
+  color: #AC9539;
 }
 
 #image img {
