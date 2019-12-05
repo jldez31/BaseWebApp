@@ -1,9 +1,6 @@
 <meta charset="UTF-8">
 <title>Weather App</title>
 
-
-<!-- First we import our css files -->
-
 <!-- bootstrap css -->
 <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 
@@ -11,24 +8,22 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Pacifico&display=swap" rel="stylesheet">
 
-<!-- this app's own css -->
+<!-- App CSS -->
 <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
-<!-- Next import js files -->
-
-<!-- first we import jquery -->
+<!-- import jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<!-- then bootstrap -->
+<!-- bootstrap -->
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+<!-- stored Weather api key -->
 <script>var apiKey="<%= process.env.API_KEY %>";</script>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
@@ -48,7 +43,6 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-
 
 <!-- then our app's own js file -->
 <script src="js/main.js"></script>

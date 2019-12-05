@@ -11,56 +11,35 @@
 </head>
 
 <body>
-  <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
-  <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header text-center">
     <h1>Weather App</h1>
   </div>
 
   <header class="bg-light text-center mb-4 p-3 white">
+    <h3>Find Current Weather By City</h3>
+      <br>
+    <input class="search input-group-text ml-auto mr-auto spacing" id="inputGroup-sizing-default" type="text" placeholder="Enter City Name">
+      <br>
+    <button type="button" onClick="searchWeather()" class="btn btn-dark button">Search</button>
 
-<h3>Find Current Weather By City</h3>
-    
-<br>
-
-  <input class="search input-group-text ml-auto mr-auto spacing" id="inputGroup-sizing-default" type="text" placeholder="Enter City Name">
-    
-   <br>
-
-  <button type="button" onClick="searchWeather()" class="btn btn-dark button">Search</button>
-
-    <br>
-    <br>
+      <br>
+      <br>
     <div class="error-message alert-warning">
 
     </div>
 
-    <br>
-    <br>
+      <br>
+      <br>
+      
+    <h5 class="city"></h5>
 
-    <h5 class="city">
-
-    </h5>
-
-    <h5 class="country">
-
-    </h5>
-
-    <h5 class="conditions">
-
-    </h5>
+    <h5 class="country"></h5>
  
-    <h5 class="temp">
+    <h5 class="temp"></h5>
 
-    </h5>
+    <h5 class="pressure"></h5>
 
-    <h5 class="pressure">
-
-    </h5>
-
-    <h5 class="wind">
-
-    </h5>
+    <h5 class="wind"></h5>
 
     </header>
     

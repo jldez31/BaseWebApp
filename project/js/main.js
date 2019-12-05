@@ -3,7 +3,6 @@ function getWeather(searchQuery) {
 
   $(".city").text("");
   $(".country").text("");
-  $(".conditions").text("");
   $(".temp").text("");
   $(".pressure").text("");
   $(".wind").text("");
@@ -11,7 +10,6 @@ function getWeather(searchQuery) {
   $.ajax(url,{success: function(data){
     $(".city").text("City: "+data.name);
     $(".country").text("Country ID: "+data.sys.country);
-    $(".conditions").text("Conditions: "+data.weather.main);
     $(".temp").text("Temperature: "+data.main.temp+" *F");
     $(".pressure").text("Pressure: "+data.main.pressure+" hPa");
     $(".wind").text("Wind Speed: "+data.wind.speed+" m/h");
