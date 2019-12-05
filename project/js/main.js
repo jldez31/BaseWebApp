@@ -81,7 +81,7 @@ function getPosts(){
     
     for(var postKey in posts) {
       var post = posts[postKey];
-      $("#post-listing").append("<div>"+"<h6>"+"Subject:"+"</h6>"+post.title+" "+"<h6>"+"<br>"+"Comment:"+"</h6>"+post.body+"</div>"+"<br>"+"<br>");
+      $("#post-listing").append("<div>"+"<h5>"+"Subject:"+"</h5>"+post.title+" "+"<h5>"+"<br>"+"Comment:"+"</h5>"+post.body+"</div>"+"<br>"+"<hr>");
     }
   });
 }

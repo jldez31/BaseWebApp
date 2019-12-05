@@ -17,17 +17,17 @@
     <h1>Weather App</h1>
   </div>
 
-  <header class="bg-light text-center mb-4 p-3">
+  <header class="bg-light text-center mb-4 p-3 white">
 
 <h3>Find Current Weather By City</h3>
     
 <br>
 
-  <input class="search input-group-text ml-auto mr-auto" id="inputGroup-sizing-default" type="text" placeholder="Enter City Name">
+  <input class="search input-group-text ml-auto mr-auto spacing" id="inputGroup-sizing-default" type="text" placeholder="Enter City Name">
     
    <br>
 
-  <button type="button" onClick="searchWeather()" class="btn btn-dark">Search</button>
+  <button type="button" onClick="searchWeather()" class="btn btn-dark button">Search</button>
 
     <br>
     <br>
@@ -75,10 +75,12 @@
       <br>
       <br>
       <br>
-<h4>Please leave comments below.</h4><br>
+  <h4>Please leave comments below.</h4><br>
       <form onSubmit="handleMessageFormSubmit()" action="#">
-      <input id="post-title"><br><br>
-      <textarea id="post-body"></textarea><br><br>
+        <h5>Subject:</h5>
+      <input id="post-title" class="search input-group-text ml-auto mr-auto"><br><br>
+      <h5>Comments:</h5>
+      <textarea id="post-body" class="search input-group-text ml-auto mr-auto"></textarea><br><br>
       <button class="btn btn-dark button">Submit</button>
     </form>
 
